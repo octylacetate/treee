@@ -10,7 +10,7 @@ struct Node{
 struct Node *create(){
 	int data;
 	printf("Enter Data \n");
-	scanf("%d",data);
+	scanf("%d",&data);
 	if(data==-1){
 		return 0;
 
